@@ -2,7 +2,7 @@
   "name":"blades-in-the-dark-jobs",
   "title":"Blades in the Dark - Jobs",
   "description":"",
-  "version":"0.0.1",
+  "version":"0.0.2",
   "author":"Mestre Digital",
   "minimumCoreVersion":"0.8.8",
   "compatibleCoreVersion":"0.8.9",
@@ -26,7 +26,7 @@
       "package": "blades-in-the-dark-jobs",
       "private": true
     }  
-  ]
+  ],
   "systems": []
   
 }
