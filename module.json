@@ -1,0 +1,32 @@
+{
+  "name":"blades-in-the-dark-jobs",
+  "title":"Blades in the Dark - Jobs",
+  "description":"",
+  "version":"0.0.1",
+  "author":"Mestre Digital",
+  "minimumCoreVersion":"0.8.8",
+  "compatibleCoreVersion":"0.8.9",
+  "esmodules": [],
+  "url":"https://github.com/brunocalado/blades-in-the-dark-jobs",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/blades-in-the-dark-jobs/main/module.json",
+  "download": "https://codeload.github.com/brunocalado/blades-in-the-dark-jobs/zip/main",
+   "languages":[],
+   "dependencies":[
+      {
+         "name":"levels",
+         "manifest":"https://github.com/theripper93/Levels/releases/latest/download/module.json"
+      }
+   ],
+  "packs": [
+    {
+      "label": "Blades in the Dark - Jobs",
+      "entity": "Scene",
+      "name": "blades-in-the-dark-jobs",
+      "path": "packs/blades-in-the-dark-jobs.db",
+      "package": "blades-in-the-dark-jobs",
+      "private": true
+    }  
+  ]
+  "systems": []
+  
+}
