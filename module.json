@@ -2,7 +2,7 @@
   "name":"blades-in-the-dark-jobs",
   "title":"Blades in the Dark - Jobs",
   "description":"",
-  "version":"0.0.3",
+  "version":"0.0.4",
   "author":"Mestre Digital",
   "minimumCoreVersion":"0.8.8",
   "compatibleCoreVersion":"0.8.9",
@@ -11,7 +11,13 @@
   "manifest": "https://raw.githubusercontent.com/brunocalado/blades-in-the-dark-jobs/main/module.json",
   "download": "https://codeload.github.com/brunocalado/blades-in-the-dark-jobs/zip/main",
    "languages":[],
-   "dependencies":[],
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+    }
+  ],
   "packs": [
     {
       "label": "Blades in the Dark - Jobs",
