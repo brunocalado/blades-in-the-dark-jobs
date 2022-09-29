@@ -1,33 +1,39 @@
 {
-  "name":"blades-in-the-dark-jobs",
+  "id":"blades-in-the-dark-jobs",
   "title":"Blades in the Dark - Jobs",
-  "description":"",
-  "version":"0.0.5",
-  "author":"Mestre Digital",
-  "minimumCoreVersion":"0.8.8",
-  "compatibleCoreVersion":"0.8.9",
-  "esmodules": [],
-  "url":"https://github.com/brunocalado/blades-in-the-dark-jobs",
-  "manifest": "https://raw.githubusercontent.com/brunocalado/blades-in-the-dark-jobs/main/module.json",
-  "download": "https://codeload.github.com/brunocalado/blades-in-the-dark-jobs/zip/main",
-   "languages":[],
-  "dependencies": [
+  "description":"Scenes with jobs for Blades in the Dark!",
+  
+  "version":"0.1.0",
+  "authors":[
     {
-      "type": "module",
-      "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      "name":"Mestre Digital",
+      "url":"https://www.youtube.com/c/MestreDigital",
+      "flags":{}
     }
   ],
-  "packs": [
-    {
-      "label": "Blades in the Dark - Jobs",
-      "entity": "Scene",
-      "name": "blades-in-the-dark-jobs",
-      "path": "packs/blades-in-the-dark-jobs.db",
-      "package": "blades-in-the-dark-jobs",
-      "private": true
-    }  
-  ],
-  "systems": []
+  "compatibility":{
+    "minimum":"10",
+    "verified":"10"
+  },
   
+  "esmodules":[],
+  
+  "url":"https://github.com/brunocalado/blades-in-the-dark-jobs",
+  "manifest":"https://raw.githubusercontent.com/brunocalado/blades-in-the-dark-jobs/main/module.json",
+  "download":"https://codeload.github.com/brunocalado/blades-in-the-dark-jobs/zip/main",
+  
+  "languages":[],
+  
+  "packs":[
+    {
+      "label":"Blades in the Dark - Jobs",
+      "type":"Adventure",
+      "name":"blades-in-the-dark-jobs",
+      "path":"packs/blades-in-the-dark-jobs.db",
+      "package":"blades-in-the-dark-jobs",
+      "private":true,
+      "system": "blades-in-the-dark"
+    }
+  ]
 }
+
